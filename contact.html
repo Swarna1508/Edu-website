@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!--navigation-->
+    <nav>
+        <img src="images/logo.svg" alt="">
+        <div class="navigation">
+            <ul>
+                <i id="menu-close"class="fa fa-times"></i>
+                <li><a  href="index.html">Home</a></li>
+                <li><a  href="about.html">About</a></li>
+                <li><a  href="blog.html">Blog</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a class="active"href="#">Contact</a></li>
+            </ul>
+        </div>
+        <img id="menu-btn"src="images/menu.png" alt="">
+    </nav>
+    <!--home-->
+    <section id="about-home">
+        <h2>Contact Us</h2>
+    </section>
+    
+    <section id="contact">
+        <div class="getin">
+            <h2>Get in touch</h2>
+            <p>Fue popularizado en los 60s con la creación de las hojas "Letraset", las Lorem Ipsum </p>
+            <div class="getin-details">
+                <h3>Headquarters</h3>
+                <div>
+                    <i class="fa fa-home get"></i>
+                    <p>744 New York Ave, Brooklyn, Kings,<br> New York-10224</p>
+                </div>
+                <h3>phone</h3>
+                <div>
+                    <i class="fa fa-phone get"></i>
+                    <p> +91 1456204789
+                        <br> +54 1207927524</p>
+                </div>
+                <h3>Support</h3>
+                <div>
+                    <i class="fa fa-envelope-open get"></i>
+                    <p> abdjsuvs@xyz.com<br> nsihaeo@abc.com</p>
+                </div>
+                <h3>Follow Us</h3>
+                <div class="pro-links">
+                    <i aria-hidden="true" class="fa fa-facebook" ></i>
+                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                    <i class="fa fa-linkedin" aria-hidden="true"></i>
+                    <i class="fa fa-behance" aria-hidden="true"></i>
+                </div>
+            </div>
+        </div>
+        <div class="form">
+            <h4>Let's Connect</h4>
+            <p>Fue popularizado en los 60s con la creación de las hojas "Letraset", las Lorem Ipsum </p>
+            <div class="form-row">
+                <input type="text" placeholder="Your Name">
+                <input type="text" placeholder="Email">
+            </div>
+            <div class="form-col">
+                <input type="text" placeholder="Subject">
+            </div>
+            <div class="form-col">
+                <textarea name="" id="" cols="30" rows="8" placeholder="How can we help?"></textarea>
+            </div>
+            <div class="form-col">
+                <button>Send Messages</button>
+            </div>
+        </div>
+    </section>
+    <section id="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30773189.59910309!2d61.03205226996401!3d19.69162967070617!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30635ff06b92b791%3A0xd78c4fa1854213a6!2sIndia!5e0!3m2!1sen!2sin!4v1687537447324!5m2!1sen!2sin" 
+         style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    </section>
+    <!--footer-->
+    <footer>
+        <div class="footer-col">
+            <h3>Top Products</h3>
+            <li>Manage Reputation</li>
+            <li>Power Tools</li>
+            <li>Managed Website</li>
+            <li>Marketing Service</li>
+        </div>
+        <div class="footer-col">
+            <h3>Quick Links</h3>
+            <li>Manage Reputation</li>
+            <li>Power Tools</li>
+            <li>Managed Website</li>
+            <li>Marketing Service</li>
+        </div>
+        <div class="footer-col">
+            <h3>Features</h3>
+            <li>Manage Reputation</li>
+            <li>Power Tools</li>
+            <li>Managed Website</li>
+            <li>Marketing Service</li>
+        </div>
+        <div class="footer-col">
+            <h3>Resources</h3>
+            <li>Manage Reputation</li>
+            <li>Power Tools</li>
+            <li>Managed Website</li>
+            <li>Marketing Service</li>
+        </div>
+        <div class="footer-col">
+            <h3>Newsletter</h3>
+            <p>You can trust us. We only send promo offers</p>
+            <div class="subscribe">
+                <input type="text" placeholder="Your Email Address">
+                <a href="#" class="y">SUBSCRIBE</a>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&#169 Copyright 2022 All rights reserved | This templete is made by Me</p>
+            <div class="pro-links">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+                <i class="fa fa-instagram" aria-hidden="true"></i>
+                <i class="fa fa-linkedin" aria-hidden="true"></i>
+            </div>
+        </div>
+    </footer>
+    <script>
+        $('#menu-btn').click(function(){
+            $('nav .navigation ul').addClass('active')
+        });
+        $('#menu-close').click(function(){
+            $('nav .navigation ul').removeClass("active")
+        });
+    </script>
+</body>
+</html>

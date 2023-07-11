@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!--navigation-->
+    <nav>
+        <img src="images/logo.svg" alt="">
+        <div class="navigation">
+            <ul>
+                <i id="menu-close"class="fa fa-times"></i>
+                <li><a  href="index.html">Home</a></li>
+                <li><a class="active" href="#">About</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <img id="menu-btn"src="images/menu.png" alt="">
+    </nav>
+    <!--home-->
+    <section id="about-home">
+        <h2>About TechEdu</h2>
+    </section>
+    <!--container-->
+    <section id="about-container">
+        <div class="about-img">
+            <img src="images/a.png" alt="">
+        </div>
+        <div class="about-text">
+            <h2>Welcome to TechEduca, Enhance your skills with best Online Courses</h2>
+            <p>Es un hecho establecido hace demasiado tiempo que un lector se distraerá con el contenido del texto de un sitio mientras que mira su diseño. </p>
+            <div class="about-fe">
+                <img src="images/fe1.png" alt="">
+                <div class="fe-text">
+                    <h5>400+ Courses</h5>
+                    <p>Fue popularizado en los 60s con la creación de las hojas "Letraset", las Lorem Ipsum </p>
+                </div>
+            </div>
+            <div class="about-fe">
+                <img src="images/fe2.png" alt="">
+                <div class="fe-text">
+                    <h5>400+ Courses</h5>
+                    <p>Fue popularizado en los 60s con la creación de las hojas "Letraset", las Lorem Ipsum </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--features-->
+    <section id="features">
+        <h1>Awesome Features</h1>
+        <p>Fue popularizado en los 60s con la creación de las hojas "Letraset", las Lorem Ipsum </p>
+        <div class="fea-base">
+            <div class="fea-box">
+                <i class="fa fa-graduation-cap" aria-hidden="true"></i>
+                <h3>Scholarship Facility</h3>
+                <p>Es un hecho establecido hace demasiado tiempo que un lector se distraerá con el contenido del texto de un sitio mientras que mira su diseño. </p>
+            </div>
+            <div class="fea-box">
+                <i class="fa fa-file" aria-hidden="true"></i>
+                <h3>Dell Online Course</h3>
+                <p>E El punto de usar Lorem Ipsum es que tiene una distribución más o menos normal de las letras, al contrario de usar textos como por ejemplo</p>
+            </div>
+            <div class="fea-box">
+                <i class="fa fa-trophy" aria-hidden="true"></i>
+                <h3>Global Certificate</h3>
+                <p>Es un hecho establecido hace dntras que mira su diseño. El punto de usar  más o menos normal de las letras, al contrario de usar textos como por ejemplo</p>
+            </div>
+        </div>
+    </section>
+    <!--trust-->
+    <section id="trust">
+        <h1>Trusted By</h1>
+        <p>Fue popularizado en los 60s con la creación de las hojas Letraset</p>
+        <div class="trust-img">
+            <img src="images/trust (1).png" alt="">
+            <img src="images/trust (2).png" alt="">
+            <img src="images/trust (3).png" alt="">
+            <img src="images/trust (4).png" alt="">
+            <img src="images/trust (5).png" alt="">
+            <img src="images/trust (6).png" alt="">
+        </div>
+    </section>
+    <!--footer-->
+    <footer>
+        <div class="footer-col">
+            <h3>Top Products</h3>
+            <li>Manage Reputation</li>
+            <li>Power Tools</li>
+            <li>Managed Website</li>
+            <li>Marketing Service</li>
+        </div>
+        <div class="footer-col">
+            <h3>Quick Links</h3>
+            <li>Manage Reputation</li>
+            <li>Power Tools</li>
+            <li>Managed Website</li>
+            <li>Marketing Service</li>
+        </div>
+        <div class="footer-col">
+            <h3>Features</h3>
+            <li>Manage Reputation</li>
+            <li>Power Tools</li>
+            <li>Managed Website</li>
+            <li>Marketing Service</li>
+        </div>
+        <div class="footer-col">
+            <h3>Resources</h3>
+            <li>Manage Reputation</li>
+            <li>Power Tools</li>
+            <li>Managed Website</li>
+            <li>Marketing Service</li>
+        </div>
+        <div class="footer-col">
+            <h3>Newsletter</h3>
+            <p>You can trust us. We only send promo offers</p>
+            <div class="subscribe">
+                <input type="text" placeholder="Your Email Address">
+                <a href="#" class="y">SUBSCRIBE</a>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&#169 Copyright 2022 All rights reserved | This templete is made by Me</p>
+            <div class="pro-links">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+                <i class="fa fa-instagram" aria-hidden="true"></i>
+                <i class="fa fa-linkedin" aria-hidden="true"></i>
+            </div>
+        </div>
+    </footer>
+    <script>
+        $('#menu-btn').click(function(){
+            $('nav .navigation ul').addClass('active')
+        });
+        $('#menu-close').click(function(){
+            $('nav .navigation ul').removeClass("active")
+        });
+    </script>
+</body>
+</html>

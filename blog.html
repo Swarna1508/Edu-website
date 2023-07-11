@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!--navigation-->
+    <nav>
+        <img src="images/logo.svg" alt="">
+        <div class="navigation">
+            <ul>
+                <i id="menu-close"class="fa fa-times"></i>
+                <li><a  href="index.html">Home</a></li>
+                <li><a  href="about.html">About</a></li>
+                <li><a class="active" href="#">Blog</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <img id="menu-btn"src="images/menu.png" alt="">
+    </nav>
+    <!--home-->
+    <section id="about-home">
+        <h2>Blog</h2>
+    </section>
+    <!--container-->
+    <section id="blog-container">
+        <div class="blogs">
+            <div class="post">
+                <img src="images/b1.jpg" alt="">
+                <h3>Leatn Web Development In The Easiest Way</h3>
+                <p>Es un hecho establecido hace dntras que mira su diseño. El punto de usar  más o menos normal de las letras, al contrario de usar textos como por Es un hecho establecido hace dntras que mira su diseño. El punto de usar  más o menos normal de las letras ejemplo</p>
+                <a href="post.html">Read More</a>
+            </div>
+            <div class="post">
+                <img src="images/b2.jpg" alt="">
+                <h3>Leatn Web Development In The Easiest Way</h3>
+                <p>Es un hecho establecido hace dntras que mira su diseño. El punto de usar  más o menos normal de las letras, al contrario de usar textos como por Es un hecho establecido hace dntras que mira su diseño. El punto de usar  más o menos normal de las letras ejemplo</p>
+                <a href="post.html">Read More</a>
+            </div>
+            <div class="post">
+                <img src="images/b3.jpg" alt="">
+                <h3>Leatn Web Development In The Easiest Way</h3>
+                <p>Es un hecho establecido hace dntras que mira su diseño. El punto de usar  más o menos normal de las letras, al contrario de usar textos como por Es un hecho establecido hace dntras que mira su diseño. El punto de usar  más o menos normal de las letras ejemplo</p>
+                <a href="post.html">Read More</a>
+            </div>
+            <div class="post">
+                <img src="images/b4.png" alt="">
+                <h3>Leatn Web Development In The Easiest Way</h3>
+                <p>Es un hecho establecido hace dntras que mira su diseño. El punto de usar  más o menos normal de las letras, al contrario de usar textos como por Es un hecho establecido hace dntras que mira su diseño. El punto de usar  más o menos normal de las letras ejemplo</p>
+                <a href="post.html">Read More</a>
+            </div>
+        </div>
+        <div class="cate">
+            <h2>Categories</h2>
+            <hr>
+            <a href="#">Web Development</a>
+            <hr>
+            <a href="#">Web Design</a>
+            <hr>
+            <a href="#">App Development</a>
+            <hr>
+            <a href="#">Frontend Web</a>
+            <hr>
+            <a href="#">Python Programming</a>
+            <hr>
+            <a href="#">JavaScript Hack</a>
+            <hr>
+        </div>
+    </section>
+    <!--footer-->
+    <footer>
+        <div class="footer-col">
+            <h3>Top Products</h3>
+            <li>Manage Reputation</li>
+            <li>Power Tools</li>
+            <li>Managed Website</li>
+            <li>Marketing Service</li>
+        </div>
+        <div class="footer-col">
+            <h3>Quick Links</h3>
+            <li>Manage Reputation</li>
+            <li>Power Tools</li>
+            <li>Managed Website</li>
+            <li>Marketing Service</li>
+        </div>
+        <div class="footer-col">
+            <h3>Features</h3>
+            <li>Manage Reputation</li>
+            <li>Power Tools</li>
+            <li>Managed Website</li>
+            <li>Marketing Service</li>
+        </div>
+        <div class="footer-col">
+            <h3>Resources</h3>
+            <li>Manage Reputation</li>
+            <li>Power Tools</li>
+            <li>Managed Website</li>
+            <li>Marketing Service</li>
+        </div>
+        <div class="footer-col">
+            <h3>Newsletter</h3>
+            <p>You can trust us. We only send promo offers</p>
+            <div class="subscribe">
+                <input type="text" placeholder="Your Email Address">
+                <a href="#" class="y">SUBSCRIBE</a>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&#169 Copyright 2022 All rights reserved | This templete is made by Me</p>
+            <div class="pro-links">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+                <i class="fa fa-instagram" aria-hidden="true"></i>
+                <i class="fa fa-linkedin" aria-hidden="true"></i>
+            </div>
+        </div>
+    </footer>
+    <script>
+        $('#menu-btn').click(function(){
+            $('nav .navigation ul').addClass('active')
+        });
+        $('#menu-close').click(function(){
+            $('nav .navigation ul').removeClass("active")
+        });
+    </script>
+</body>
+</html>
